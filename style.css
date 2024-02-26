@@ -1,7 +1,11 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+body{
+    background-color: rgb(222, 176, 240);
+}
 
-h1{
+1{
     color:blueviolet;
 }
+
