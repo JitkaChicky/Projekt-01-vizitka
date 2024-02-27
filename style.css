@@ -3,33 +3,100 @@ html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 body {
     color:#030303;
-    background-color:#dbd8dde7 ;
-    font-size: 20px;
-    font-family: "Amatic SC", sans-serif;
+    background-color:#ffffffe7 ;
+    font-size: 30px;
+    font-family:"Amatic SC", sans-serif;
     line-height: 1.5;
-    margin:0 0 0 0;   
+    margin:0;   
 }
 
-h1
- {
+.Uvod {
+    width: 300; 
+    margin-left: 60px;
+    margin-top: 60px;
+    padding-left: 20px; 
+    text-align: left;
+    float:left;   
+}
+
+h1{
     text-align: center;
-    font-size: 60px;
- }
+    font-family: "DM Serif Display", serif;
+    font-size: 90px;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(203, 209, 209, 0.301);
+    margin-top: 120px;
+    margin-bottom: 0;
+  }
 
  h2{
-    text-align: center;
-    font-size: 40px;
+    text-align: left;
+    font-family: "DM Serif Display", serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 40px; 
  }
- section {
-    padding: 30px 10%;
-    overflow: auto;
-    }
-.jafoto {
-    width: 300; 
-    border-radius: 50%; 
-    float:right;
-    margin: 30px 30px ;
+
+.Hobbies{
+    background-color: rgba(203, 209, 209, 0.301);
+    margin: 60px 100px 100px 0px;
+
+    
 }
+ .Hobbies h2{
+    text-align: right;
+    margin-right: 60px;
+    
+ }
+
+ .Hobbies img {
+    width: 200px;
+    border-radius: 5%;
+    margin-bottom: 30px;
+
+
+
+ }
+ table{
+ 
+    border-spacing: 0;
+    margin-left: 80px;
+}
+th, td {
+ 
+     
+    text-align:center;
+    padding:10px 0;}
+th {
+    border-bottom: 2px solid #070707;  
+}
+.hobby {
+    padding-left: 190px; 
+}
+ .Work{
+    background-color: rgba(203, 209, 209, 0.301);
+    margin-left: 80px;
+    margin-top: 60px;
+    }
+
+    ul{
+        margin-left: 40px;
+    }
+
+p{
+    text-align: center;
+    font-style: normal;
+    margin-top: 40px;
+    padding-top: 0;
+}
+ section {
+    padding: 0;
+    overflow: auto;
+    
+    }
+
 
 .menu
 {
@@ -37,6 +104,7 @@ h1
     margin: 0;
     padding: 0;
     text-align: right;
+    font-family: "Amatic SC", sans-serif;
 
     
 }
@@ -55,4 +123,21 @@ h1
     background-color: #606063da;
 }
 
-
+.Kontakt p {
+    font-size: 30px;
+    font-family: "Zeyada", cursive;
+    font-weight: 400;
+    font-style: italic;
+    text-align: right;
+    margin-right: 120px;
+    margin-bottom: 10px;
+}
+.paticka {
+    background-color: #000000ef;
+    color:#f9e3d0;
+    text-align:center; 
+    padding: 10px 0;
+}
+.paticka p{
+    margin: 5px;
+}
