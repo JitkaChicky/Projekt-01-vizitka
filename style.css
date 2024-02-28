@@ -123,6 +123,12 @@ p{
     background-color: #606063da;
 }
 
+.Foto img {
+  width: 32%;
+  border: 2px solid #756158;
+  border-radius: 5px;
+}
+
 .Kontakt p {
     font-size: 30px;
     font-family: "Zeyada", cursive;
