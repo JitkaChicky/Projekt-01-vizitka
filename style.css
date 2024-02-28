@@ -129,14 +129,11 @@ p{
   border-radius: 5px;
 }
 
-.Kontakt p {
+.Kontakt {
     font-size: 30px;
-    font-family: "Zeyada", cursive;
-    font-weight: 400;
-    font-style: italic;
-    text-align: right;
-    margin-right: 120px;
-    margin-bottom: 10px;
+    background-color: rgba(203, 209, 209, 0.301);
+    margin-left: 80px;
+    margin-top: 60px;
 }
 .paticka {
     background-color: #000000ef;
