@@ -11,12 +11,19 @@ body {
 }
 
 .Uvod {
-    width: 300; 
+    width: 400px; 
     margin-left: 60px;
     margin-top: 60px;
     padding-left: 20px; 
     text-align: left;
     float:left;   
+}
+
+.About em {
+        font-family: "Zeyada", cursive;
+        font-weight: 400;
+        font-style: italic;
+        margin-left: 800px;
 }
 
 h1{
@@ -41,7 +48,7 @@ h1{
 
 .Hobbies{
     background-color: rgba(203, 209, 209, 0.301);
-    margin: 60px 100px 100px 0px;
+    margin: 60px 100px 60px 0px;
 
     
 }
@@ -52,11 +59,9 @@ h1{
  }
 
  .Hobbies img {
-    width: 200px;
+    width: 180px;
     border-radius: 5%;
     margin-bottom: 30px;
-
-
 
  }
  table{
@@ -73,7 +78,7 @@ th {
     border-bottom: 2px solid #070707;  
 }
 .hobby {
-    padding-left: 190px; 
+    padding-left: 170px; 
 }
  .Work{
     background-color: rgba(203, 209, 209, 0.301);
@@ -92,7 +97,7 @@ p{
     padding-top: 0;
 }
  section {
-    padding: 0;
+    padding-top: 20px;
     overflow: auto;
     
     }
@@ -123,15 +128,40 @@ p{
     background-color: #606063da;
 }
 
-.Kontakt p {
-    font-size: 30px;
-    font-family: "Zeyada", cursive;
-    font-weight: 400;
-    font-style: italic;
-    text-align: right;
-    margin-right: 120px;
-    margin-bottom: 10px;
+.Foto{
+    text-align: center;
+    background-color: rgba(203, 209, 209, 0.301);
+    
 }
+.Foto img {
+    width: 16%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    
+    
+  }
+  
+  .Kontakt{
+    background-color: rgba(203, 209, 209, 0.301);
+    margin-left: 80px;
+    margin-top: 60px;
+  }
+.Kontakt img {
+    width: 300px; 
+    margin-right: 58%;
+    float: right;  
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+    
+  .Kontakt p{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 50px;
+    padding-right: 80px;
+    display: inline-block;
+  }
+
 .paticka {
     background-color: #000000ef;
     color:#f9e3d0;
