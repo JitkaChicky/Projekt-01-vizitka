@@ -142,6 +142,13 @@ p{
     
     
   }
+  .Foto p {
+    
+    text-align: center;
+    margin: 10px  10%;
+    
+    
+  }
   
   .Kontakt{
     background-color: rgba(203, 209, 209, 0.301);
@@ -150,16 +157,18 @@ p{
   }
 .Kontakt img {
     width: 300px; 
-    margin-right: 58%;
-    float: right;  
+    margin-right: 55%;
+    margin-top: 5%;  
     border: 2px solid #000000;
     border-radius: 50%;
+    float: right;
 }
     
   .Kontakt p{
     text-align: left;
     font-size: 30px;
     margin-left: 50px;
+    margin-top:0;
     padding-right: 80px;
     display: inline-block;
   }
