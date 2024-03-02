@@ -8,174 +8,185 @@ body {
     font-family:"Amatic SC", sans-serif;
     line-height: 1.5;
     margin:0;   
-}
-
-.Uvod {
-    width: 400px; 
-    margin-left: 60px;
-    margin-top: 60px;
-    padding-left: 20px; 
-    text-align: left;
-    float:left;   
-}
-
-.About em {
-        font-family: "Zeyada", cursive;
+    }
+h1 {
+        text-align: center;
+        font-family: "DM Serif Display", serif;
+        font-size: 90px;
         font-weight: 400;
-        font-style: italic;
-        margin-left: 800px;
-}
-
-h1{
-    text-align: center;
-    font-family: "DM Serif Display", serif;
-    font-size: 90px;
-    font-weight: 400;
-    font-style: normal;
-    background-color: rgba(203, 209, 209, 0.301);
-    margin-top: 120px;
-    margin-bottom: 0;
-  }
-
- h2{
-    text-align: left;
-    font-family: "DM Serif Display", serif;
-    font-size: 50px;
-    font-weight: 400;
-    font-style: normal;
-    margin-left: 40px; 
- }
-
-.Hobbies{
-    background-color: rgba(203, 209, 209, 0.301);
-    margin: 60px 100px 60px 0px;
-
+        font-style: normal;
+        background-color: rgba(110, 107, 110, 0.212); 
+        margin-top: 120px;
+        margin-bottom: 0;
+      }
     
-}
- .Hobbies h2{
-    text-align: right;
-    margin-right: 60px;
-    
- }
-
- .Hobbies img {
-    width: 180px;
-    border-radius: 5%;
-    margin-bottom: 30px;
-
- }
- table{
- 
-    border-spacing: 0;
-    margin-left: 80px;
-}
-th, td {
- 
-     
-    text-align:center;
-    padding:10px 0;}
-th {
-    border-bottom: 2px solid #070707;  
-}
-.hobby {
-    padding-left: 170px; 
-}
- .Work{
-    background-color: rgba(203, 209, 209, 0.301);
-    margin-left: 80px;
-    margin-top: 60px;
-    }
-
-    ul{
-        margin-left: 40px;
-    }
-
-p{
+h2 {
+        text-align: left;
+        font-family: "DM Serif Display", serif;
+        font-size: 50px;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 40px; 
+        margin-top: 20px;
+        margin-bottom: 30px;
+     }
+p  {
     text-align: center;
     font-style: normal;
     margin-top: 40px;
     padding-top: 0;
-}
+    }
  section {
     padding-top: 20px;
     overflow: auto;
-    
     }
 
-
-.menu
-{
+.menu {
     background-color: #000000ef;
     margin: 0;
     padding: 0;
     text-align: right;
-    font-family: "Amatic SC", sans-serif;
-
-    
-}
+    font-family: "Amatic SC", sans-serif;  
+    }
 .menu li {
     display: inline-block;
-}
+    }
 .menu a {
     color:#edeae8f7;
     text-decoration: none;
     padding: 20px 30px;
     display: inline-block;
     font-size: 40px;
-}
+    }
 
-.menu a:hover,   .menu a:focus, a:active{
+.menu a:hover,   .menu a:focus, a:active {
     background-color: #606063da;
-}
+    }
+.Uvod {
+    width: 400px; 
+    margin-left: 60px;
+    margin-top: 60px;
+    padding-left: 20px; 
+    float:left;   
+    }
+
+.logo {
+    width: 250px; 
+    display: block;   
+    float: right;
+    align-self: right;
+
+    }
+
+.Work{
+    background-color: rgba(110, 107, 110, 0.212);  
+    margin-left: 80px;
+    margin-top: 10px;
+    }
+
+.Work p {
+    text-align: right;
+    padding-right: 50px;
+    }
+.Work a {
+    color: rgba(197, 26, 146, 0.849);
+    }
+
+.Hobbies{
+    background-color: rgba(110, 107, 110, 0.212); 
+    margin: 60px 100px 60px 0px;
+    }
+
+.Hobbies h2{
+    text-align: right;
+    margin-right: 60px;
+    }
+
+.Hobbies img {
+    width: 180px;
+    border-radius: 5%;
+    margin-bottom: 30px;
+    }
+
+.Hobbies p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    }
+
+table{
+    border-spacing: 0;
+    margin-left: 80px;
+    }
+
+th, td {
+    text-align:center;
+    padding:10px 0;}
+
+th {
+    border-bottom: 2px solid #070707;  
+    }
+
+.hobby {
+    padding-left: 170px; 
+    }
+
+    ul{
+        margin-left: 40px;
+    }
 
 .Foto{
     text-align: center;
-    background-color: rgba(203, 209, 209, 0.301); 
+    background-color: rgba(110, 107, 110, 0.212); 
+    }
 
-  }
-
-
+.Foto h2{
+    
+    text-align: center;
+    }
 .Foto img {
     width: 16%;
     border: 2px solid #000000;
     border-radius: 5px;
-    
-    
   }
-  .Foto p {
-    
+
+.Foto p {
     text-align: center;
-    margin: 10px  10%;
-    
-    
+    margin: 10px  5%;
+    padding-bottom: 20px;
   }
-  
-  .Kontakt{
-    background-color: rgba(203, 209, 209, 0.301);
+
+.Kontakt{
+    background-color: rgba(110, 107, 110, 0.212); 
     margin-left: 80px;
     margin-top: 60px;
   }
+ 
 .Kontakt img {
     width: 300px; 
-    margin-right: 55%;
+    margin-right: 58%;
     margin-top: 5%;  
     border: 2px solid #000000;
     border-radius: 50%;
     float: right;
-}
-    
-  .Kontakt p{
+    display: block;
+    }
+
+.Kontakt p{
     text-align: left;
     font-size: 30px;
     margin-left: 50px;
     margin-top:0;
     padding-right: 80px;
-    display: inline-block;
-  }
+    display:block;
+    }
+
+.Kontakt a{
+    color: rgba(197, 26, 146, 0.849);
+    }
 
 .paticka {
     background-color: #000000ef;
-    color:#f9e3d0;
+    color:#c2bec2;
     text-align:center; 
     padding: 10px 0;
 }
